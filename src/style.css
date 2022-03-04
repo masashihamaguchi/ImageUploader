@@ -1,0 +1,88 @@
+/**
+ *  style.css
+ */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Zen Maru Gothic', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#image-area {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#file-input {
+  margin: 32px 0;
+}
+
+#file-area {
+  width: 100%;
+  height: 200px;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+  background-color: lightgray;
+  transition: .5s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#file-area div {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 2px dashed gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#file-area p {
+  font-size: 1.2rem;
+  transition: .5s;
+}
+
+#file-area.dragover {
+  padding: 24px;
+  background-color: #f0f0f0;
+  transition: .5s;
+}
+
+#file-area.dragover p {
+  font-size: 1.4rem;
+  transition: .5s;
+}
+
+
+@media screen and (max-width: 864px) {
+  #image-area {
+    height: 200px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 32px;
+  }
+}
