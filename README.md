@@ -2,13 +2,13 @@
 
 Webサイト上でファイルをドラッグ&ドロップで選択できるようにしたサンプルプロジェクトです。
 
-デモサイトは[こちら](https://image-uploader-sample.netlify.app/)
+デモサイトは[こちら](https://image-uploader-sample.netlify.app/){:target="_blank"}
 
 ![screencapture.png](/img/screencapture.png)
 
 ## 実装方法
 
-### 1. HTMLファイルにInputタグとファイルをドロップするエリアを用意する
+### 1. HTMLファイルにinputタグとファイルをドロップするエリアを用意する
 
 ```html:index.html
 <!-- 画像をプレビューするimgタグ -->
@@ -25,7 +25,7 @@ Webサイト上でファイルをドラッグ&ドロップで選択できるよ�
 </div>
 ```
 
-### 2. Inputタグとドロップエリアを初期化するためのメソッドを用意する
+### 2. inputタグとドロップエリアを初期化するためのメソッドを用意する
 
 ```JavaScript:main.js
 const initImageBox = function () {
