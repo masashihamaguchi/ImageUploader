@@ -2,7 +2,7 @@
 
 Webサイト上でファイルをドラッグ&ドロップで選択できるようにしたサンプルプロジェクトです。
 
-デモサイトは[こちら](https://image-uploader-sample.netlify.app/){:target="_blank"}
+デモサイトは[こちら](https://image-uploader-sample.netlify.app/)
 
 ![screencapture.png](/img/screencapture.png)
 
